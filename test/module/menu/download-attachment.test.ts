@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { SlateEditor, IDomEditor } from '@wangeditor/editor'
+import { SlateEditor, IDomEditor } from '@wangeditor-next/editor'
 import createEditor from '../../utils/create-editor'
 import { AttachmentElement } from '../../../src/index'
 import DownloadAttachmentMenu from '../../../src/module/menu/DownloadAttachment'

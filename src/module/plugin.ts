@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { DomEditor, IDomEditor } from '@wangeditor/editor'
+import { DomEditor, IDomEditor } from '@wangeditor-next/editor'
 
 function withAttachment<T extends IDomEditor>(editor: T) {
   const { isInline, isVoid } = editor

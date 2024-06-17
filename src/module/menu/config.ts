@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IUploadConfig } from '@wangeditor/editor'
+import { IUploadConfig } from '@wangeditor-next/editor'
 import { AttachmentElement } from '../custom-types'
 import { UppyFile } from '@uppy/core'
 

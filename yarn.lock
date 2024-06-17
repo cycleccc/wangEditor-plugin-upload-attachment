@@ -1885,24 +1885,24 @@
     "@uppy/utils" "^4.0.4"
     nanoid "^3.1.25"
 
-"@wangeditor/basic-modules@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.npmmirror.com/@wangeditor/basic-modules/-/basic-modules-1.1.4.tgz#bc8b63732946b3ce962d92be25ca48de78f3b19c"
-  integrity sha512-jIl3Rzsl+URdF8fbpWNFCHC+93hfHkngROXltcH6VUx5XW++1NiqwlLGMnPmidmThlqnjrdpeq3qtelHZqg29g==
+"@wangeditor-next/basic-modules@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@wangeditor-next/basic-modules/-/basic-modules-1.2.2.tgz#d745b46cd5b1ab06f381d63495d43cb971ac3a98"
+  integrity sha512-62AfDK/y/WaOrvUNEPoAh4wnWxkfrtagpm6/PSnrVCn1gHfKvyEDn+Dz04P5O31WqHkhPbOGgPbIGNISTIi93g==
   dependencies:
     is-url "^1.2.4"
 
-"@wangeditor/code-highlight@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmmirror.com/@wangeditor/code-highlight/-/code-highlight-1.0.3.tgz#90256857714d5c0cf83ac475aea64db7bf29a7cd"
-  integrity sha512-iazHwO14XpCuIWJNTQTikqUhGKyqj+dUNWJ9288Oym9M2xMVHvnsOmDU2sgUDWVy+pOLojReMPgXCsvvNlOOhw==
+"@wangeditor-next/code-highlight@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@wangeditor-next/code-highlight/-/code-highlight-1.2.0.tgz#c0a75e80a324a0758b54b968ce6cc35602b9f3f2"
+  integrity sha512-CNteGYbifyDXxg3ygWBoSkg7bt5+MP+Nu9yysOhizWgjqyLeAo4eBuyurJpbCWbLa0PL2iTBqfWAaZd7/Fq+Nw==
   dependencies:
     prismjs "^1.23.0"
 
-"@wangeditor/core@^1.1.12":
-  version "1.1.12"
-  resolved "https://registry.npmmirror.com/@wangeditor/core/-/core-1.1.12.tgz#37f4b8bcc34cc832ed62174d9fb206b11007fac3"
-  integrity sha512-u6NBap1fHldFkxTLYdpezsGsi+a8F3ES0Bg6pu2TCQm4Qwl6xV0yvehFxZnOPomL+GrVGuCrvvOLnr9T3zntEg==
+"@wangeditor-next/core@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@wangeditor-next/core/-/core-1.2.2.tgz#b0c02fa913a367add276c37917b5ff0927ec8cb7"
+  integrity sha512-0nBoGwHiiVQMpYaepw0aYt/Ir/8OO2BPnBjS6GypWrLmheOpzkLiZ6MRAoKtluqIpdAqMf6rCuqZdxjCNwrerw==
   dependencies:
     "@types/event-emitter" "^0.3.3"
     event-emitter "^0.3.5"
@@ -1911,20 +1911,20 @@
     scroll-into-view-if-needed "^2.2.28"
     slate-history "^0.66.0"
 
-"@wangeditor/editor@^5.1.16":
-  version "5.1.16"
-  resolved "https://registry.npmmirror.com/@wangeditor/editor/-/editor-5.1.16.tgz#0091953f852459acafd7973e1b7fcb708af72ea1"
-  integrity sha512-XmzO29pGz5rK/JS9ML7RxMXprR1YoX3wLsJIOj037U2HbP3tZ1QDcI/nCSQP3gCTA0o8/fD2P/WvxaZ6fEt7Mg==
+"@wangeditor-next/editor@^5.2.5":
+  version "5.2.5"
+  resolved "https://registry.npmjs.org/@wangeditor-next/editor/-/editor-5.2.5.tgz#e0a4a9f5cfce5f5de34bbd289036f96c47c884c8"
+  integrity sha512-ZMcR2XT0B3Uv4qLA+CXdxg9q9jR88Kl6804Ps9VlNYefCXlrdiYVH5webhAtDFFFoN9U+pYRJ/6RxJS8gEabLA==
   dependencies:
     "@uppy/core" "^2.1.1"
     "@uppy/xhr-upload" "^2.0.3"
-    "@wangeditor/basic-modules" "^1.1.4"
-    "@wangeditor/code-highlight" "^1.0.3"
-    "@wangeditor/core" "^1.1.12"
-    "@wangeditor/list-module" "^1.0.3"
-    "@wangeditor/table-module" "^1.1.2"
-    "@wangeditor/upload-image-module" "^1.0.1"
-    "@wangeditor/video-module" "^1.1.2"
+    "@wangeditor-next/basic-modules" "^1.2.2"
+    "@wangeditor-next/code-highlight" "^1.2.0"
+    "@wangeditor-next/core" "^1.2.2"
+    "@wangeditor-next/list-module" "^1.1.0"
+    "@wangeditor-next/table-module" "^1.2.0"
+    "@wangeditor-next/upload-image-module" "^1.1.0"
+    "@wangeditor-next/video-module" "^1.2.2"
     dom7 "^3.0.0"
     is-hotkey "^0.2.0"
     lodash.camelcase "^4.3.0"
@@ -1938,25 +1938,25 @@
     slate "^0.72.0"
     snabbdom "^3.1.0"
 
-"@wangeditor/list-module@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmmirror.com/@wangeditor/list-module/-/list-module-1.0.3.tgz#52b12ed61b5cd48a591e835b4d2cb41feec0b5ac"
-  integrity sha512-hH1OZGT0pBPSywFyGELkPHh9bGJQk5fcGgP9S3cXcQYxrPPhnAKjCCr5YzFzZhaSI6Epj83HfOHaAelEjkibNg==
+"@wangeditor-next/list-module@^1.1.0":
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/@wangeditor-next/list-module/-/list-module-1.3.0.tgz#f0dc47c6449428ee0a685214f68c3800b0dc4cbf"
+  integrity sha512-n+tLJlfWbmVZSjSRwM/Mto1syN7IrOHONGZSd+sKUW4/jDZ1LLxUt65Ng8gs+1U+z3O9pdz6dW6VUigOL6ZX2w==
 
-"@wangeditor/table-module@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npmmirror.com/@wangeditor/table-module/-/table-module-1.1.2.tgz#a361045a78cd21399cdcde3c04cffadba2db8c36"
-  integrity sha512-HavBTzHxdk0+CLPR4KrYCQmOoJ5t5J6UQuFUb2lO7n9YPIF2W/0xsNDK5Nkw/AsKjwYkqfUdG+6QbS1jV2Vdng==
+"@wangeditor-next/table-module@^1.2.0":
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/@wangeditor-next/table-module/-/table-module-1.4.0.tgz#f6f7f4ed7e1197ed37043c2da6041091672e2a53"
+  integrity sha512-PdvO+BYof0pcN2CMKftExMfi1NUMWWxXZG2SALc1IklpRR1fcgLOmr4Og/Wo2u36QQrAz1Z2tD7NUo4m2ANgmw==
 
-"@wangeditor/upload-image-module@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/@wangeditor/upload-image-module/-/upload-image-module-1.0.1.tgz#a074518d73ce9c5cfd3e8ee56d1adf831996f142"
-  integrity sha512-vgUV4ENttTITblqtVuzleIq732OmzmzzgrIvX6b3GRGPSw5u8glJ/87tOEhvHjHECc4oFo18B7xzJ1GpBj79/w==
+"@wangeditor-next/upload-image-module@^1.1.0":
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/@wangeditor-next/upload-image-module/-/upload-image-module-1.3.0.tgz#5cfba31cec5c5bcfc7479543ab6c8844776e7916"
+  integrity sha512-M4QMhOcUYwsw3Op7WjfY49YbZc9CbCzkbdKMeXRbvp5RF7xo8j86xsMyANOhtcNgV6CP5MChkU1F0Ky04HZs0g==
 
-"@wangeditor/video-module@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npmmirror.com/@wangeditor/video-module/-/video-module-1.1.2.tgz#ad6a2217504130a318aceec7842a922c702374e7"
-  integrity sha512-y8pMejpQ/AnAQZx+A86sGFo+ockg4tSc3oKpuN+1xFbnYMF6Tb+t7yt3+qY/ZJ2FffL635wxZpYbQWOboNUn9g==
+"@wangeditor-next/video-module@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@wangeditor-next/video-module/-/video-module-1.2.2.tgz#88bc1b55cd25e30a6a570f9c561ac0b627bcf736"
+  integrity sha512-D/UZvPG401CgP8T4u8KwGgsD0+YOs0LhBtM2pc7ORDEvVcedoVmnn12X98Gn096MiN2KkgixUS8RHEH+OTe8ew==
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"

@@ -11,7 +11,7 @@
 ## Installation
 
 ```shell
-yarn add @wangeditor/plugin-upload-attachment
+yarn add @wangeditor-next/plugin-upload-attachment
 ```
 
 ## Usage
@@ -19,8 +19,8 @@ yarn add @wangeditor/plugin-upload-attachment
 ### Register to editor
 
 ```js
-import { Boot } from '@wangeditor/editor'
-import attachmentModule from '@wangeditor/plugin-upload-attachment'
+import { Boot } from '@wangeditor-next/editor'
+import attachmentModule from '@wangeditor-next/plugin-upload-attachment'
 
 // Register
 // You should register this before create editor, and register only once (not repeatedly).
@@ -32,7 +32,7 @@ Boot.registerModule(attachmentModule)
 Editor config
 
 ```ts
-import { IEditorConfig } from '@wangeditor/editor'
+import { IEditorConfig } from '@wangeditor-next/editor'
 
 const editorConfig: Partial<IEditorConfig> = {
   // Hoverbar keys when selected a attachment node.
@@ -114,7 +114,7 @@ const editorConfig: Partial<IEditorConfig> = {
 Toolbar config
 
 ```ts
-import { IToolbarConfig } from '@wangeditor/editor'
+import { IToolbarConfig } from '@wangeditor-next/editor'
 
 const toolbarConfig: Partial<IToolbarConfig> = {
   // insert some menus in toolbar

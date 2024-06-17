@@ -4,7 +4,7 @@
  */
 
 import { h, VNode } from 'snabbdom'
-import { DomEditor, IDomEditor, SlateElement } from '@wangeditor/editor'
+import { DomEditor, IDomEditor, SlateElement } from '@wangeditor-next/editor'
 import { AttachmentElement } from './custom-types'
 
 function renderAttachment(elem: SlateElement, children: VNode[] | null, editor: IDomEditor): VNode {

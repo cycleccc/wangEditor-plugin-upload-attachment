@@ -3,8 +3,8 @@
  * @author wangfupeng
  */
 
-import { DomEditor, IDomEditor, SlateRange, t } from '@wangeditor/editor'
-import { IButtonMenu } from '@wangeditor/editor'
+import { DomEditor, IDomEditor, SlateRange, t } from '@wangeditor-next/editor'
+import { IButtonMenu } from '@wangeditor-next/editor'
 import { DOWNLOAD_SVG } from '../../constants/icon-svg'
 import { AttachmentElement } from '../custom-types'
 

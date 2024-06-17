@@ -11,18 +11,18 @@
 ## 安装
 
 ```shell
-yarn add @wangeditor/plugin-upload-attachment
+yarn add @wangeditor-next/plugin-upload-attachment
 ```
 
 ## 使用
 
-【注意】该文档要求 `@wangeditor/editor` 版本 `>=5.1.16`
+【注意】该文档要求 `@wangeditor-next/editor` 版本 `>=5.1.16`
 
 ### 注册到编辑器
 
 ```js
-import { Boot } from '@wangeditor/editor'
-import attachmentModule from '@wangeditor/plugin-upload-attachment'
+import { Boot } from '@wangeditor-next/editor'
+import attachmentModule from '@wangeditor-next/plugin-upload-attachment'
 
 // 注册。要在创建编辑器之前注册，且只能注册一次，不可重复注册。
 Boot.registerModule(attachmentModule)
@@ -33,7 +33,7 @@ Boot.registerModule(attachmentModule)
 编辑器配置
 
 ```ts
-import { IEditorConfig } from '@wangeditor/editor'
+import { IEditorConfig } from '@wangeditor-next/editor'
 
 const editorConfig: Partial<IEditorConfig> = {
 
@@ -121,7 +121,7 @@ const editorConfig: Partial<IEditorConfig> = {
 工具栏配置
 
 ```ts
-import { IToolbarConfig } from '@wangeditor/editor'
+import { IToolbarConfig } from '@wangeditor-next/editor'
 
 const toolbarConfig: Partial<IToolbarConfig> = {
   // 插入哪些菜单

@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { SlateElement } from '@wangeditor/editor'
+import { SlateElement } from '@wangeditor-next/editor'
 import { AttachmentElement } from './custom-types'
 
 // 生成 html 的函数

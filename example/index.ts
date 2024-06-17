@@ -9,7 +9,7 @@ import {
   Boot,
   IEditorConfig,
   i18nChangeLanguage,
-} from '@wangeditor/editor'
+} from '@wangeditor-next/editor'
 import module, { AttachmentElement } from '../src/index'
 
 Boot.registerModule(module)
